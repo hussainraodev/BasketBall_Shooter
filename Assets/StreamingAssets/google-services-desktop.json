@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421239996161",
+    "project_id": "basketball-test-305f7",
+    "storage_bucket": "basketball-test-305f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421239996161:android:9ac52cfd32941f87d3a500",
+        "android_client_info": {
+          "package_name": "com.abc.BasketballShooter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSY577w3HAjwKxL0bRt0BYGz9sCkIpSdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
