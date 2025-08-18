@@ -8,7 +8,7 @@ public class BallLauncher : MonoBehaviour
     private bool isCameraDragging = false;
     void Start() {
         int currentLevel = PlayerPrefs.GetInt("Level", 1);
-        FirebaseAnalytics.Event("level" + currentLevel + "_started", "level" + currentLevel + "_started", currentLevel.ToString());
+       
     }
     void Update()
     {

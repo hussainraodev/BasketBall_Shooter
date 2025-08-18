@@ -22,8 +22,7 @@ public class ScoreKeeper : MonoBehaviour
         player.SetActive(false);
         int currentLevel = PlayerPrefs.GetInt("Level",1);
         PlayerPrefs.SetInt("Level",currentLevel+1);
-        AdsManager.instance.ShowInterstitialAds();
-        FirebaseAnalytics.Event("level" + currentLevel + "_completed", "level" + currentLevel + "__completed", currentLevel.ToString());
+       
         completePanel.SetActive(true);
     }
     public void Next()
@@ -32,6 +31,6 @@ public class ScoreKeeper : MonoBehaviour
         score = 0;
         int currentLevel = PlayerPrefs.GetInt("Level", 1);
         completePanel.SetActive(false);
-        FirebaseAnalytics.Event("level" + currentLevel + "_started", "level" + currentLevel + "_started", currentLevel.ToString());
+       
     }
 }
